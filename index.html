@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+    </style>
+    <link rel="icon" href="archive/pilot.jpg">
+
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="thoughts.html">Thoughts</a> |
+        <a href="bookmarks_links.html">Bookmarks</a>
+    </nav>
+    <div class="container">
+        <div class="center-content">
+            <h1>Hi im Aditya</h1>
+        </div>
+        <p>Im a first year ECE Undergrad with an with interst for electronics, aerospace, and math (still figuring out our differences)</p>
+        <p>I get way too exicted about abstract problems like conting how many times you can fold a map</p>
+        <hr>
+        <p>I like to read (gonna track books here soon), and play squash.</p>
+    </div>
+    <footer>
+        <a href="https://x.com/Poyntivector" target="_blank">Twitter (X)</a> |
+        <a href="https://www.linkedin.com/in/yourprofile/" target="_blank">Linkedin</a> |
+        <a href="https://github.com/Aditya-1020" target="_blank">GitHub</a> |
+        <a href="#" onclick="copyToClipboard('your.email@example.com')">Email</a>
+
+        <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Email copied to clipboard: ' + text);
+            }).catch(err => {
+                console.error('Could not copy text: ', err);
+            });
+        }
+        </script>
+    </footer>
+</body>
+</html>
