@@ -49,7 +49,7 @@ img {
 
 footer {
     text-align: center;
-    margin-top: 30px;
+    margin-top: auto;
     padding: 10px 0;
 }
 
@@ -68,4 +68,15 @@ ul li a {
     .container {
         width: 95%;
     }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* This makes the main content area grow and take up available space */
 }
